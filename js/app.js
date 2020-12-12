@@ -119,7 +119,7 @@ function mostrarCotizacionHMTL (cotizacion){
     precioAlto.innerHTML = `El precio mas alto del dia fue:<span>${HIGHDAY}</span>`
 
     const preciobajo= document.createElement('p');
-    preciobajo.innerHTML = `El precio mas alto del dia fue:<span>${LOWDAY}</span>`
+    preciobajo.innerHTML = `El precio mas bajo del dia fue:<span>${LOWDAY}</span>`
 
     const variacion= document.createElement('p');
     variacion.innerHTML = `La variacion en la ultimas 24 horas fue:<span>${CHANGEPCT24HOUR}%</span>`
